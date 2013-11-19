@@ -1,0 +1,74 @@
+
+a:hover{
+    text-decoration:none;
+}
+
+a:hover i.globe{
+    color:green;
+    transform: scale(1.1,1.1);
+    -ms-transform: scale(1.1,1.1); /* IE 9 */
+    -webkit-transform: scale(1.1,1.1); /* Safari and Chrome */
+}
+i.bitcoin{ /* PAID LISTING */
+    color:white;
+    padding:7px 10px 7px 10px;
+    border-radius:20px;
+    font-size:25px;
+}
+
+
+.check-button{
+    width:100%;
+    text-align:center;
+    font-size:20px;
+}
+
+i.trophy{ /* PREMIUM LISTING */
+    color:white;
+    padding:7px 8px 7px 8px;
+    border-radius:20px;
+    font-size:25px;
+}
+
+i.star{ /* FEATURED LISTING */
+    color:white;
+    padding:7px 8px 7px 8px;
+    border-radius:20px;
+    font-size:25px;
+}
+
+label{
+    cursor:default;
+}
+
+.featured{
+    text-align:center;
+}
+
+.featured .col-4{
+    box-shadow: 0 0 1px rgba(125,125,125,0.5);
+    border-radius:5px;
+    height:250px;
+    max-width:33%;
+}
+
+.featured h3{
+    font-size:18px;
+}
+
+a i{
+    color:black;
+}
+
+
+.category ul{
+    border-top: solid thin rgba(125,125,125,0.3);
+    margin-top:10px;
+    padding:10px 0;
+
+}
+.category li{
+    list-style-type:none;
+    padding:1px;
+    margin:0;
+}
